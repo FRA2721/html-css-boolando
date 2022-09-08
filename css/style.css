@@ -1,0 +1,221 @@
+/* reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* common */
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* container */
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* red-color */
+.red-color {
+    color: red;
+    font-weight: bold;
+}
+
+/* flexbox */
+.flexbox {
+    display: flex;
+}
+
+/* align-items */
+.align-items {
+    align-items: center;
+}
+
+/* reset img */
+img {
+    max-width: 100%;
+}
+
+/* a */
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* formatting ul */
+ul {
+    list-style-type: none;
+}
+
+/* formatting li */
+li {
+    display: inline-block;
+}
+
+/* header  */
+/* fixed  container */
+.fixed-container {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 1rem;
+    background-color: #ff6900;
+    box-shadow: 1px 0px 5px rgb(51, 51, 51)
+}
+
+/* header container */
+header .container{
+    justify-content: space-between;
+}
+
+/* header nav */
+.header-nav{
+    width: 30%;
+}
+
+/* header-nav ul li a */
+.header-nav ul li a {
+    margin-right: 5px;
+    font-weight: bold;  
+    font-size: 1.2rem;
+}
+
+/* header-logo */
+.header-logo {
+   align-self: center;
+}
+
+/* header-logo img */
+.header-logo img {
+    height: 30px;
+    align-self: center;
+}
+
+/* header-icon */
+.header-icon {
+    text-align: end;
+    width: 30%; 
+    font-size: 1.2em;
+}
+
+/* header-icon a i */
+.header-icon a i {
+    margin-left: 5px;
+}
+
+/* main */
+/* row */
+.row {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 80px 0 80px;
+} 
+
+/* col */
+.col {
+    position: relative;
+    background-color: white;
+    width: calc(97% / 3);
+    margin-top: 40px;
+}
+
+/* formatting card */
+.card {
+    position: relative;
+}
+
+/* card hover status */
+.card-hover {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* .card:hover .card-hover */
+.card:hover .card-hover {
+    display: inline-block;
+}
+
+/* formatting price line */
+.line-through{
+    text-decoration: line-through;
+    color: black;
+    font-weight: lighter;
+}
+
+/* info pic */
+.info-pic {
+    position: relative;
+    bottom: 80px;
+    color: white;
+    font-weight: bold;
+}
+
+/* discount section */
+.discount {
+    background-color: red;
+    padding: 5px 10px;
+}
+
+/* sustainability */
+.sustainability {
+    background-color: green;
+    padding: 5px 10px;
+}
+
+/* heart */
+.heart {
+    /* display: none; */
+    position: absolute;
+    right: 0;
+    top: 10px;
+    background-color: white;
+    width: 50px;
+    padding: 10px;
+    font-size: 2rem;
+}
+
+/* card:hover .heart  */
+.card:hover .heart {
+    /* display: block; */
+    color: red;
+}
+
+/* footer  */
+footer {
+    background-color: #1a1a1a;
+}
+
+/* footer-container */
+.footer-container {
+    padding: 40px 0;
+    justify-content: space-between;
+    align-items: center;
+    color: white; 
+}
+
+/* footer-info a,
+.footer-info li */
+.footer-info a,
+.footer-info li {
+    color: white;
+    margin-top: 10px;
+    font-size: 0.8rem;
+    margin-right: 5px;
+}
+
+/* formatting icons */
+.icons i {
+    margin-top: 10px;
+    font-size: 1.5rem;
+    margin-left: 5px;
+}
+
+/* h4 formatting */
+h4{
+    text-align: center;
+}
